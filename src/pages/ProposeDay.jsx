@@ -26,7 +26,12 @@ Your loving partner 💑`}
         "Our late-night conversations where we talked about our dreams, our future, and building a life together. Those talks mean everything to me.",
         "Every 'I love you' is a new proposal, and your 'I love you too' is a yes that I will cherish forever and ever."
       ]}
-      imageNote="Precious moments of our love story"
+      images={[
+        "/images/propose/propose1.jpeg",
+        "/images/propose/propose2.jpeg",
+        "/images/propose/propose3.jpeg",
+        "/images/propose/propose4.jpeg"
+      ]}
     />
   );
 };
