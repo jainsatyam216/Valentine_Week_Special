@@ -92,12 +92,12 @@ const Dashboard = () => {
   // Check if a day is unlocked (current date or earlier)
   const isUnlocked = (dayDate) => {
     // Set to start of day for comparison
-    const today = new Date(currentDate.getFullYear(), currentDate.getMonth(), currentDate.getDate());
-    const checkDate = new Date(dayDate.getFullYear(), dayDate.getMonth(), dayDate.getDate());
-    return checkDate <= today;
+    // const today = new Date(currentDate.getFullYear(), currentDate.getMonth(), currentDate.getDate());
+    // const checkDate = new Date(dayDate.getFullYear(), dayDate.getMonth(), dayDate.getDate());
+    // return checkDate <= today;
     
     // FOR TESTING: Uncomment below to unlock all days
-    // return true;
+     return true;
   };
 
   const handleCardClick = (day) => {

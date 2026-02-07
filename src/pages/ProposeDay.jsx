@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
+import { useNavigate } from 'react-router-dom';
 
 const ProposeDay = () => {
+  const navigate = useNavigate();
   const [isVisible, setIsVisible] = useState(false);
   const { scrollYProgress } = useScroll();
   const opacity = useTransform(scrollYProgress, [0, 0.2], [1, 0]);
@@ -19,7 +21,33 @@ const ProposeDay = () => {
   }));
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-rose-50 via-pink-50 to-amber-50 overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-rose-200 via-pink-50 to-amber-50 overflow-hidden">
+      {/* Back Button */}
+      <motion.div
+        initial={{ opacity: 0, x: -20 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ delay: 0.5 }}
+        className="fixed top-6 left-6 z-50"
+      >
+        <motion.button
+          onClick={() => navigate('/')}
+          whileHover={{ scale: 1.05, x: -5 }}
+          whileTap={{ scale: 0.95 }}
+          className="group flex items-center gap-3 px-6 py-3 bg-white/80 backdrop-blur-md rounded-full shadow-lg hover:shadow-xl border border-amber-200 transition-all duration-300"
+        >
+          <motion.span
+            className="text-2xl"
+            animate={{ x: [0, -3, 0] }}
+            transition={{ duration: 1.5, repeat: Infinity }}
+          >
+            ←
+          </motion.span>
+          <span className="font-semibold text-gray-700 group-hover:text-amber-600 transition-colors">
+            Back
+          </span>
+        </motion.button>
+      </motion.div>
+
       {/* Floating Hearts Background */}
       <div className="fixed inset-0 pointer-events-none overflow-hidden">
         {floatingHearts.map((heart) => (
