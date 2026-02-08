@@ -92,6 +92,15 @@ const LockScreen = ({ onUnlock }) => {
             )}
           </motion.div>
 
+          <motion.p
+              className="text-center text-pink-700/60 font-body text-sm mt-6 italic"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.8 }}
+            >
+              Pass key is not same for everyday just like us.
+        </motion.p>
+
           <motion.button
             type="submit"
             initial={{ y: 20, opacity: 0 }}
@@ -112,7 +121,7 @@ const LockScreen = ({ onUnlock }) => {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.8 }}
         >
-          Hint: Think about our special number... ✨
+          Hint: The sentense which I said to you in our initial days but not "Pyaar"... ✨
         </motion.p>
       </motion.div>
 

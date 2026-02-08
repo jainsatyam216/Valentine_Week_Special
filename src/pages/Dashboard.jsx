@@ -97,7 +97,7 @@ const Dashboard = () => {
     return checkDate <= today;
     
     // FOR TESTING: Uncomment below to unlock all days
-    // return true;
+    //return true;
   };
 
   const handleCardClick = (day) => {
