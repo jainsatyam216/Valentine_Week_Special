@@ -121,7 +121,10 @@ const LockScreen = ({ onUnlock }) => {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.8 }}
         >
-          Hint: The sentense which I said to you in our initial days but not "Pyaar"... ✨
+          Hint: Rose Day, Propose Day, Chocolate bhi saath,
+                Par jab relationship hoti hai khaas,
+                Toh ek hi cheez bolta hai dil baar-baar,
+                “Tu hi hai meri sabse___choice yaar!”... ✨
         </motion.p>
       </motion.div>
 
