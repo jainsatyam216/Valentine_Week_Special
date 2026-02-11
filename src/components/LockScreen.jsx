@@ -121,10 +121,8 @@ const LockScreen = ({ onUnlock }) => {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.8 }}
         >
-          Hint: Rose Day, Propose Day, Chocolate bhi saath,
-                Par jab relationship hoti hai khaas,
-                Toh ek hi cheez bolta hai dil baar-baar,
-                “Tu hi hai meri sabse___choice yaar!”... ✨
+          Hint: Hari jhandi laal kamaan, touba touba kare insaan.
+                Or log puche mera naam, to jhatt bta doon uneh javab.
         </motion.p>
       </motion.div>
 
