@@ -121,8 +121,7 @@ const LockScreen = ({ onUnlock }) => {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.8 }}
         >
-          Hint: Hari jhandi laal kamaan, touba touba kare insaan.
-                Or log puche mera naam, to jhatt bta doon uneh javab.
+          Hint: Jo aapko hamse or hame aapse hai aapse bhi jyada.
         </motion.p>
       </motion.div>
 
