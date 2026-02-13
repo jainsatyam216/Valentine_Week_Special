@@ -354,11 +354,11 @@ const Celebration = ({ onComplete }) => {
 /* ─── Letter Section ─────────────────────────────────────────── */
 const letterParagraphs = [
   {
-    text: `Happy Valentine's Day, my love. This day is special — but honestly, every single day with you feels like Valentine's Day. You have transformed my ordinary life into an extraordinary adventure, filled with love, laughter, joy, and countless beautiful moments that I will treasure deeply for the rest of my life.`,
+    text: `Happy Valentine's Day, my love! Today is a day to celebrate the most beautiful and magical thing in the world — our love. It’s a love that has filled my life with so much joy, warmth, and meaning, and I am endlessly grateful for every moment we share together.`,
     delay: 0,
   },
   {
-    text: `Thank you for being exactly who you are — for your incredible kindness, your radiant smile, your contagious laughter, your adorable little quirks, and absolutely everything that makes you uniquely and wonderfully you. Thank you for choosing me, for loving me unconditionally, and for standing by my side through every storm and every celebration.`,
+    text: `Thanks for handling all my weirdness, for loving me at my best and my worst, for making me laugh and for being the most incredible partner I could have ever dreamed of. You are the bestest person of my life, the beat of my heart, and the reason behind all my smiles.`,
     delay: 0.2,
   },
   {
@@ -370,7 +370,7 @@ const letterParagraphs = [
     delay: 0.6,
   },
   {
-    text: `I love you more than words can ever express, more than actions can ever show, and more than you will ever fully know. You made me believe in forever, in fairytales, in happily ever after — and with you, I know I have truly found mine.`,
+    text: `I love you more than words can ever express, more than actions can ever show, and more than you will ever fully know. I want to spend every single day of my life making you as happy as you make me, and I will give you lots of surprises not only in valentine's week but every day of the year.`,
     delay: 0.8,
   },
 ];
