@@ -11,7 +11,7 @@ import HugDay from './pages/HugDay'
 import KissDay from './pages/KissDay'
 import ValentineDay from './pages/ValentineDay'
 
-const SECRET_CODE = "A143S" // Change this to your desired secret code;
+const SECRET_CODE = "Pyaar" // Change this to your desired secret code;
 
 function App() {
   const [isUnlocked, setIsUnlocked] = useState(false);
